@@ -1,12 +1,19 @@
-const Button = ({text,color,hoverColor}) => {
-    console.log(color);
-    return (
-        <div>
-             <button className={`font-Bungee font-semibold text-white uppercase px-4 py-2.5 bg-[${color}] hover:bg-[${hoverColor}]`}>
-                   {text}
-             </button>
-        </div>
-    );
+const Button = ({ text, bgColor, hoverColor,textColor }) => {
+
+  return (
+    <div>
+      <button
+        style={{
+          backgroundColor: bgColor,
+          ":hover": { backgroundColor: hoverColor },
+          color: textColor
+        }}
+        className="font-Bungee w-56 font-semibold text-white uppercase px-4 py-2.5"
+      >
+        {text}
+      </button>
+    </div>
+  );
 };
 
 export default Button;
