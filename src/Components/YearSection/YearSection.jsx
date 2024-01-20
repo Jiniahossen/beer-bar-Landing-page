@@ -2,7 +2,7 @@ import Button from "../Button/Button";
 
 const YearSection = () => {
   return (
-    <div className="flex gap-20 px-32 my-32">
+    <div className="flex gap-20 px-32 py-20 my-32">
       <div className="flex-1">
         <img className=" bg-[#f3c242]" src="https://i.ibb.co/N18mQNX/brand-history.png" alt="" />
       </div>

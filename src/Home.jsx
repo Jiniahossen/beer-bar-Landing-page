@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <div>
       <HeroSection />
-      <div className="bg-[#FBFBFB]">
+      <div className="bg-[#F9F9F9]">
         <YearSection />
       </div>
       <Discover/>
